@@ -4,42 +4,37 @@
   "info": {
     "singularName": "booking",
     "pluralName": "bookings",
-    "displayName": "booking"
+    "displayName": "booking",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "email": {
-      "type": "string",
-      "required": true
-    },
-    "bookingid": {
-      "type": "uid",
-      "required": true
-    },
-    "paymentInfo": {
-      "type": "json",
-      "required": false
-    },
-    "tour": {
-      "type": "json",
-      "required": true
-    },
     "name": {
-      "type": "string",
-      "required": true
-    },
-    "transactionid": {
       "type": "string"
     },
-    "amount": {
-      "type": "decimal",
-      "required": true
+    "email": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "learning": {
+      "type": "string"
+    },
+    "checkout_session": {
+      "type": "string"
     },
     "status": {
-      "type": "string",
+      "type": "string"
+    },
+    "tourname": {
+      "type": "string"
+    },
+    "tourid": {
+      "type": "integer",
       "required": true
     }
   }
