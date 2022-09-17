@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "globes",
+  "info": {
+    "singularName": "globe",
+    "pluralName": "globes",
+    "displayName": "Globe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Left": {
+      "type": "decimal"
+    },
+    "Top": {
+      "type": "decimal"
+    }
+  }
+}

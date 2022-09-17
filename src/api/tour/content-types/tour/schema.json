@@ -37,6 +37,19 @@
     "price": {
       "type": "decimal",
       "required": true
+    },
+    "Overview": {
+      "type": "richtext"
+    },
+    "Carousel": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
