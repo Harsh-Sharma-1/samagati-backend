@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "previous_tours",
+  "info": {
+    "singularName": "previous-tour",
+    "pluralName": "previous-tours",
+    "displayName": "PreviousTour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Testimonial": {
+      "type": "json"
+    }
+  }
+}

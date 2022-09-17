@@ -68,6 +68,32 @@
       "required": true,
       "maxLength": 10,
       "minLength": 10
+    },
+    "Contact": {
+      "type": "integer"
+    },
+    "DOB": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Skills": {
+      "type": "string"
+    },
+    "Credit": {
+      "type": "integer"
     }
   }
 }
